@@ -2,16 +2,16 @@ iOS Keyboard Bridge which notifies PhoneGap app when keyboard is shown and hidde
 
 For example:
 
-keyboardBridge.init(function(){
+    keyboardBridge.init(function(){
 
-    keyboardBridge.onKeyboardShown(function(){
-      console.log('keyboard shown');
-    });
+        keyboardBridge.onKeyboardShown(function(){
+          console.log('keyboard shown');
+        });
 
-    keyboardBridge.onKeyboardHidden(function(){
-      console.log('keyboard hidden');
-    });
-};
+        keyboardBridge.onKeyboardHidden(function(){
+          console.log('keyboard hidden');
+        });
+    };
 
 To Use:
 
